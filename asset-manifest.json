@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/test-ticket/static/css/main.ffe3bc08.css",
-    "main.js": "/test-ticket/static/js/main.db3de906.js",
+    "main.css": "/test-ticket/static/css/main.00b9545c.css",
+    "main.js": "/test-ticket/static/js/main.5ee7e8bf.js",
+    "static/media/airline.svg": "/test-ticket/static/media/airline.7a069b2a11d18c2c0c4b942041a52625.svg",
+    "static/media/cargoBaggage.svg": "/test-ticket/static/media/cargoBaggage.1b894408d2b8fc3ff1d7bdc3de5a0f30.svg",
+    "static/media/cabinBaggage.svg": "/test-ticket/static/media/cabinBaggage.8236c7ba2e73586dd530b28a1e8fefe0.svg",
     "index.html": "/test-ticket/index.html",
-    "main.ffe3bc08.css.map": "/test-ticket/static/css/main.ffe3bc08.css.map",
-    "main.db3de906.js.map": "/test-ticket/static/js/main.db3de906.js.map"
+    "main.00b9545c.css.map": "/test-ticket/static/css/main.00b9545c.css.map",
+    "main.5ee7e8bf.js.map": "/test-ticket/static/js/main.5ee7e8bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ffe3bc08.css",
-    "static/js/main.db3de906.js"
+    "static/css/main.00b9545c.css",
+    "static/js/main.5ee7e8bf.js"
   ]
 }
