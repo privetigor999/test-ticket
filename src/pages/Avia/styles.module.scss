@@ -1,0 +1,55 @@
+.container {
+  width: 963px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  .optionsBlock {
+    height: 100px;
+    background-color: #5c87db;
+    border-radius: 15px 15px 0px 0px;
+    padding: 0 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .buttonBlock {
+    height: 86px;
+    background: #ffffff;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 29px;
+    .searchBtn {
+      width: 158px;
+      height: 40px;
+      background: #5c87db;
+      border-radius: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 140%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+    .searchBtn:hover {
+      background: #3e67b7;
+    }
+    .searchBtn:active {
+      background: #5c87db;
+      box-shadow: 0px 4px 4px rgba(92, 135, 219, 0.15);
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .searchBtn:disabled {
+      background: #b7bac1;
+      box-shadow: none;
+      cursor: auto;
+    }
+  }
+}

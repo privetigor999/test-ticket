@@ -1,0 +1,209 @@
+.container {
+  width: 980px;
+  background: #ffffff;
+  box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  min-height: 200px;
+  margin: auto 0;
+  position: relative;
+  .priceBlock {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #232323;
+  }
+  .direction {
+    display: flex;
+    flex-direction: row;
+    width: 790px;
+    border-right: 1px solid #dde3ee;
+    .aviacompanyBlock {
+      width: 132px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      position: relative;
+      p {
+        margin-top: 8px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #5c5c5c;
+      }
+      .categoryTicket {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #8ba5d8;
+        border-radius: 15px 0px;
+        width: 132px;
+        height: 26px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 14px;
+        color: #ffffff;
+      }
+    }
+    .infoTicket {
+      flex: 1;
+      padding: 0 25px;
+      height: 200px;
+      .timeBlock {
+        display: flex;
+        align-items: center;
+        height: 40px;
+        .time {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: row;
+          width: 107px;
+          height: 34px;
+          background: #ffffff;
+          border: 1px solid #b7bac1;
+          border-radius: 10px;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 21px;
+          color: #5c5c5c;
+          cursor: pointer;
+          transition: transform 0.15s ease-in-out;
+          span {
+            font-size: 14px;
+          }
+        }
+        .time:not(.div:first-child) {
+          margin-right: 20px;
+        }
+        .activeTime {
+          transform: scale(110%);
+          background: #dde3ee;
+          border: none;
+        }
+      }
+      .directionInfo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        height: 120px;
+
+        .departureInfo {
+          width: 100px;
+          div {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 28px;
+            text-align: center;
+            color: #232323;
+            margin-bottom: 10px;
+          }
+          p {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 16px;
+            color: #5c5c5c;
+          }
+        }
+        .route {
+          width: 280px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          position: relative;
+          .airports {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            color: #b7bac1;
+          }
+          .line {
+            width: calc(100% - 20px);
+            border-top: 1px solid #b7bac1;
+            margin-top: 8px;
+          }
+          .line::before {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            background: #c4c4c4;
+          }
+          .line::after {
+            content: "";
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            top: 24px;
+            transform: translateY(-50%);
+            transform: translateX(3150%);
+            background: #c4c4c4;
+          }
+          .destTime {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            color: #b7bac1;
+            margin-top: 8px;
+          }
+        }
+        .baggageInfo {
+          display: flex;
+          flex-direction: row;
+          align-items: flex-end;
+          justify-content: space-between;
+          width: 50px;
+        }
+      }
+    }
+    .backTicket {
+      border-top: 1px dashed #5c87db;
+    }
+  }
+}
+
+.directionBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.backBtn {
+  margin-top: 20px;
+  width: 100px;
+  height: 30px;
+  background: #5c87db;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  transition: transform 0.15s ease-in-out;
+}
+.backBtn:hover {
+  transform: scale(110%);
+}
