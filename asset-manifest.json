@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-ticket/static/css/main.ffe3bc08.css",
+    "main.js": "/test-ticket/static/js/main.db3de906.js",
+    "index.html": "/test-ticket/index.html",
+    "main.ffe3bc08.css.map": "/test-ticket/static/css/main.ffe3bc08.css.map",
+    "main.db3de906.js.map": "/test-ticket/static/js/main.db3de906.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffe3bc08.css",
+    "static/js/main.db3de906.js"
+  ]
+}
