@@ -9,6 +9,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/avia" />} />
         <Route path="/avia" element={<Avia />} />
+        <Route path="/avia/info" element={<Info />} />
         <Route path="*" element={<Navigate to="/avia" />} />
       </Routes>
     </div>
